@@ -246,6 +246,21 @@
 				<javadoc.opts>-Xdoclint:none -html5</javadoc.opts>
 			</properties>
 		</profile>
+		<profile>
+			<id>ontotext</id>
+			<distributionManagement>
+				<repository>
+					<id>internal</id>
+					<name>OWLIM Releases repository</name>
+					<url>http://maven.ontotext.com/content/repositories/owlim-releases</url>
+				</repository>
+				<snapshotRepository>
+					<id>snapshots</id>
+					<name>OWLIM Snapshots repository</name>
+					<url>http://maven.ontotext.com/content/repositories/owlim-snapshots</url>
+				</snapshotRepository>
+			</distributionManagement>
+		</profile>
 	</profiles>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
